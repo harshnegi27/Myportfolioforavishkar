@@ -1,0 +1,39 @@
+.container2{
+    display: flex;
+}
+.main1{
+    font-size: 21px;
+    background-image: url("back.webp");
+    padding-left: 40px;
+    color: rgb(222, 12, 12);
+}
+.heading{
+    font-size: 60px;
+    margin-bottom: 10px;
+    padding: 40px 2px 2px 2px;
+    text-decoration: solid white underline;
+    color: #48ff00;
+}
+.abt h1{
+    color: #0008ff;
+    text-decoration: solid whitesmoke underline; 
+} 
+.abt h3,h3,p,h3,ul,.cont,.conclusion,.sports div{
+    color: white;
+}
+.sports h2,.inf{
+    color: #0011ff;
+    text-decoration: solid whitesmoke underline; 
+}
+.academicjourney ul li{
+    padding-top: 7px;
+}
+.academicpersuits  ul li{
+    padding-top: 7px;
+}
+.academicpersuits h1{
+    margin-bottom: 10px;
+}
+.conclusion{
+    padding-bottom: 10px;
+}

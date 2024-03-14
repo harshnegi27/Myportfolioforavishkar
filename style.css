@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+
+.main{
+    background-image: url(back.webp);
+    width: 100vw;
+    height: 100vh;
+}
+.bar{
+    padding-top: 30px;
+    width: 260px; 
+    height: 100vh;
+    border-right:1px solid white;
+    font-weight: 900;
+    background-color:rgb(0, 0, 0);
+} 
+.bar nav{
+    padding:30px
+}
+.bar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 20px 30px;
+    font-weight: 800;
+}
+.bar nav li img{
+    width: 50px;
+}
+.bar nav li a{
+    text-decoration: none;
+    color:rgb(0, 255, 229)
+}
+.infocontainer{
+    height:95vh;
+    width:68vw;
+    margin:13px auto;
+    display: flex;
+}
+.info{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 55px;
+    color: navajowhite;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-decoration: solid rgb(255, 255, 255) underline;
+}
+pre{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid white underline;
+    color: rgb(43, 226, 220);
+}
+.h{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-decoration: solid white underline;
+    color: green;
+}
+.h1{
+    font-size:22px;
+    padding-top: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: aqua;  
+}
+.button{
+    margin-top: 30px;
+}
+button{
+    padding:11px 16px;
+    border-radius: 50px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(75, 255, 30);
+    font-size: bold;
+    font-size: 25px;
+    margin:0 3px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(255, 254, 254);
+    color: dodgerblue;
+}
+.pop{
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;  
+}
+.pop img{
+    width: 35px;
+}
+.cross{
+    padding-top: 0px;
+    margin-left: 209px;
+}
+.cross:hover{
+    background-color: rgb(0, 247, 255);
+}
+.ham{
+    height:30px;
+}
+.ham:hover{
+    background-color:aqua;
+}
+.barout{
+    transform: translate(-300px,0px);
+    position: fixed;
+}

@@ -1,0 +1,56 @@
+.contactheading{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  text-decoration: underline;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main5{
+    width: 100vw;
+}
+.form{
+    padding:60px 60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.form div{
+    padding:10px 0;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 3px solid #00d9ff;
+  border-radius: 8px;
+}
+.form {
+    background-image: url(back.webp);
+  }
+  
+.form form {
+    margin: 0;
+    padding: 0;
+  }
+  
+.form label {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #00d9ff;
+  }
+  
+  .form input[type="submit"] {
+    background-color: hsl(208, 80%, 46%);
+    border: 2px solid black;
+    border-radius: 25px;
+    color: #fff;
+    padding: 6px 25px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  .form input[type="submit"]:hover {
+     color: hsl(208, 80%, 46%);
+     background-color: #1c0ac0;
+  }
